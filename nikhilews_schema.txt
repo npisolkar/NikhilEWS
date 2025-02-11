@@ -1,0 +1,51 @@
+
+
+
+Accounts table - accounts.csv
+	NEWACT#	- account @
+	mortality_risk	- numeric (1-5?) 5-highest risk
+	illness_severity - numeric (1-5) 5-highest severity
+	admit_categ - alphanumeric ?? no idea
+	CLFC - financial class
+	StartDate - 1/18/2023
+	CLDCST	- numeric, discharge type/status
+	account	- copy of NEWACT#
+	birthdatetime - 03JAN23:00:00:00
+	sexf - 1 for f, 0 for male
+	startdatetime - 11FEB23:00:00:00
+	enddatetime - 14JAN23:00:00:00
+
+
+ComfortCare table - comfort_care.csv
+	cmfrt_account	cmfrt_datetime
+	1820	31JUL23:00:00:00
+	3106	25OCT23:00:00:00
+	1381	26MAY23:00:00:00
+	2861	27NOV23:00:00:00
+
+
+Rapid Response Team s table - rrts.xlsx
+	TIME_RRT_CALLED	08:15 pm
+	account	- numeric nonnull 1583
+	time	- str 08:15
+	hour	- 08
+	min	- 15
+	ampm	- "AM" or "PM"
+	time_string	- 08:15:00.00 PM
+	rrt_time	- 20:15
+
+Codes for vitals - vital_codes.xlsx
+	FmtName	
+	Label	
+	Start
+
+Narrow vitals table - vitals_narrow.csv
+	account	
+	code	
+	value	
+	vital_timestamp - 29SEP22:12:11:14
+
+Wide vitals table - vitals_wide.xlsx
+account	vital_timestamp	ABD	ABM	ABS	CCO	CVD	DI	P	PAM	PAD	PAS	TEMP	PR	PSO	S
+
+
